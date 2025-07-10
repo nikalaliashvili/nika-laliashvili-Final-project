@@ -1,0 +1,86 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-tall-mtavruli/css/alk-tall-mtavruli.min.css");
+body {
+	background-color: #2456ca !important;
+    padding-top: 120px;
+}
+header {
+	background-color: #273bf0;
+	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+.active{
+    text-decoration: none !important;
+	color: #fff428 !important;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 550;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.active::after {
+    text-decoration: none;
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  bottom: -5px;
+  left: 0;
+  background-color: #fff428;
+  transition: width 0.3s ease-in-out;
+}
+.active:hover::after {
+  width: 100%;
+}
+
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.headerwords {
+    text-decoration: none !important;
+	color: rgb(255, 255, 255) !important;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 550;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.headerwords::after {
+    text-decoration: none;
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  bottom: -5px;
+  left: 0;
+  background-color: #fff428;
+  transition: width 0.3s ease-in-out;
+}
+
+.headerwords:hover::after {
+  width: 100%;
+}
+
+.logo1{
+	height: 80px;
+	width: 80px;
+}
+li {
+	margin-right: 40px;
+}
+
+ul{
+  display: flex;
+}
+.burger-icon{
+  display: none;
+}

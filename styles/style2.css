@@ -11,15 +11,9 @@ header {
 	top: 0;
 	z-index: 100;
 }
-
-.navigation{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 .active{
-      text-decoration: none !important;
-	color: rgb(255, 226, 40) !important;
+    text-decoration: none !important;
+	color: #fff428 !important;
 	text-transform: uppercase;
 	font-size: 35px;
 	font-weight: 550;
@@ -28,7 +22,7 @@ header {
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
-.active:after {
+.active::after {
     text-decoration: none;
   content: "";
   position: absolute;
@@ -39,9 +33,14 @@ header {
   background-color: #fff428;
   transition: width 0.3s ease-in-out;
 }
-
 .active:hover::after {
   width: 100%;
+}
+
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .headerwords {
     text-decoration: none !important;
@@ -85,163 +84,111 @@ ul{
 .burger-icon{
   display: none;
 }
-
-.slide{
-    height: 600px;
-}
-.w-100{
-    height: 600px;
-}
-.carousel-item{
-    position: relative;
-}
-.txt1 {
-    font-family: "ALK Tall Mtavruli", sans-serif;
-  color: rgb(244, 236, 216);
-  position: absolute;
-  top: 75%;
-  left: 27%;
-  transform: translate(-50%, -50%);
-  font-size: 90px;
-  font-weight: 700;
-  z-index: 2;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-.txtbox{
-    width: 250px;
-    margin-left: 10%;
-    margin-top: 175px;
-    display: inline block;
-}
-.section222 {
-  padding: 60px;
-}
-
 .content-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 20px;
 }
 
-.txtbox {
+/* Flip card layout (photo right, card left) */
+.content-wrapper.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Outside image */
+.photo-outside {
   width: 250px;
-  margin-left: 15%;
+  height: 360px;
   margin-top: 50px;
+  border: 5px solid #ffffff;
+}
+.photo-outside2 {
+  width: 250px;
+  height: 380px;
+  margin-top: 50px;
+  border: 5px solid #ffffff;
 }
 
-.section2txt {
-  color: #ffffff;
-  font-size: 90px;
-  font-weight: 600;
-  font-family: "ALK Tall Mtavruli", sans-serif;
-}
-
-/* Image Styles */
-.image-container {
-  position: relative;
-  width: fit-content;
-}
-
-.main-image {
-  width: 700px;
-  height: auto;
-  border-radius: 10px;
+/* Gray card */
+.gray {
+  background-color: #c8c8c8;
+  width: 790px;
+  height: 595px;
+  margin-left: 200px;
+  margin-top: 30px;
+  border: 5px solid #ffff19;
   box-shadow: 0 50px 70px rgba(0, 0, 0, 0.422);
-}
-
-.overlay-image {
-  position: absolute;
-  bottom: -30px;
-  left: -30px;
-  width: 350px;
-  border-radius: 10px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
-  background: white;
-}
-
-.custom-section {
-  padding: 60px 30px;
-}
-
-.titlediv {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffd600;
-  padding: 30px 40px;
-  border-radius: 25px;
-  margin-bottom: 40px;
-  width: 1300px;
-  height: 90px;
-}
-
-.title {
-  text-decoration: none !important;
-  padding: 15px 20px;
-  font-size: 55px;
-  font-weight: 600;
-  text-align: center;
-  font-family: "ALK Tall Mtavruli", sans-serif;
-  text-decoration: none ;
-  color: #0f1bff;
-}
-.section.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 40px 0;
-}
-
-.imgcontainer {
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
   position: relative;
-  background-color: white;
-  height: 357px;
-  width: 300px;
-  border-radius: 4%;
+  z-index: 0;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+.gray2 {
+  background-color: #c8c8c8;
+  width: 790px;
+  height: 690px;
+  margin-right: 200px;
+  margin-top: 30px;
+  border: 5px solid #ffff19;
   box-shadow: 0 50px 70px rgba(0, 0, 0, 0.422);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 0;
+    font-family: "ALK Tall Mtavruli", sans-serif;
 }
 
-.top-image {
-	height: 200px;
-	width: 300px;
-	border-top-left-radius: 4%;
-    border-top-right-radius: 4%;
+/* Inside layout */
+
+.card-inside-img {
+  width: 780px;
+  height: 300px;
+  object-fit: cover;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.card-inside-img2 {
+  width: 780px;
+  height: 330px;
+  object-fit: cover;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: 0px;
+  margin-top: 10px;
 }
 
-.paragraph{
-	position: absolute;
-	top: 220px;
-	left: 37px;
-	right: 87px;
-  font-family: "ALK Tall Mtavruli", sans-serif;
-	font-weight: 700;
-	font-size: 15px;
-	color: #8A8787;
-	line-height: 200%;
-    margin-bottom: 10px;
+
+.card-title {
+  font-size: 23px;
+  color: #3f4145;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.toptxt{
+  font-size: 23px;
+  font-weight: 600;
+}
+.txt {
+  font-size: 21px;
+  font-weight: 500;
+  color: #000308;
+  margin-top: 2px ;
 }
 
-.clock{
-	position: absolute;
-	top: 320;
-	left: 37px;
-	height: 20px;
-	width: 20px;
-}
-
-.time{
-	position: absolute;
-	top: 320px;
-	left: 67px;
-	font-family:"Roboto", sans-serif;
-	font-weight: 700;
-	font-size: 10px;
-	color: #8A8787;
-	line-height: 200%;
-}
 .bottom {
   height: 201px;
   width: 100%;
@@ -314,3 +261,4 @@ width: 110px;
   margin-left: 15px;
   margin-right: 15px;
 }
+
