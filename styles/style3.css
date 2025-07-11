@@ -280,12 +280,10 @@ ul{
 
 
 
-
 .bottom {
-  height: 201px;
+  height: 250px;
   width: 100%;
   background-color: #02204f;
-  border: 3px solid #ffffff;
 }
 
 .line1 {
@@ -296,19 +294,19 @@ ul{
 .line1-p {
   margin-left: 137px;
   margin-top: 60px;
-  font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
   font-weight: 700;
-  color: #818687;
+  color: #ffffff;
 }
 
 .line1-p-2 {
   margin-left: 137px;
   margin-top: 14px;
-  font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
   font-weight: 700;
-  color: #818687;
+  color: #ffffff;
 }
 
 .liltxt{
@@ -320,7 +318,7 @@ ul{
 
 .phrase {
   font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-family: "ALK Tall Mtavruli", sans-serif;
   font-weight: 400;
   color: white;
 }
@@ -328,9 +326,8 @@ ul{
 .logo2{
 	display: inline-block;
 	vertical-align: text-top;
-	margin-left: 600px;
-	margin-top: 80px;
-
+	margin-left: 100px;
+	margin-top: 120px;
 }
 
 .logo-tbc{
@@ -352,4 +349,27 @@ width: 110px;
   background-color: rgb(255, 255, 255);
   margin-left: 15px;
   margin-right: 15px;
+  
+}
+.line2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.line2-p {
+  margin-left: 96px;
+  margin-top: 60px;
+  font-size: 25px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.line2-p-2 {
+  margin-left: 96px;
+  margin-top: 14px;
+  font-size: 25px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
 }
