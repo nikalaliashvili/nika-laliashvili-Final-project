@@ -1,0 +1,126 @@
+@media (max-width: 320px) {
+      body {
+    padding-top: 90px;
+  }
+  header{
+    padding-bottom: 0px !important;
+  }
+  .headerwords, .active {
+    font-size: 20px;
+  }
+  .logo1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 125px;
+  }
+
+  nav ul {
+    flex-direction:row;
+    margin-left: -30px;
+    margin-top: 15px;
+  }
+  nav li{
+    margin-right: 10px;
+  }
+  .content-box {
+    flex-direction: column;
+    padding: 15px;
+    border-radius:0px ;
+    box-shadow: none;
+    margin-bottom: 15px;
+  }
+
+ .spectitlediv1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    height: auto;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    margin-bottom: -25px;
+  }
+
+  .text-side,
+  .full-width-text {
+    font-size: 20px;
+  }
+
+  .bigtxt {
+    font-size: 30px;
+  }
+
+  .skola {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+  .image-side img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-side,
+  .full-width-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .bigtxt {
+    font-size: 25px;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 325px !important;
+  }
+  .pic{
+    height: 250px;
+  }
+
+  .spectitle1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .spectitlediv1 {
+    padding: 20px;
+    height: auto;
+  }
+  .bottom {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .line1,
+  .line2,
+  .liltxt,
+  .logo2 {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .line1-p,
+  .line1-p-2,
+  .line2-p,
+  .line2-p-2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .logo-tbc,
+  .logo-geolab {
+    height: 30px;
+    width: auto;
+    margin: 5px;
+  }
+
+  .line {
+    display: none;
+  }
+}

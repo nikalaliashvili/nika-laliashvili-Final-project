@@ -276,10 +276,6 @@ ul{
   text-decoration: none ;
   color: #ff0f0f;
 }
-
-
-
-
 .bottom {
   height: 250px;
   width: 100%;
@@ -314,13 +310,6 @@ ul{
   vertical-align: top;
   margin-left: 112px;
   margin-top: 60px;
-}
-
-.phrase {
-  font-size: 12px;
-  font-family: "ALK Tall Mtavruli", sans-serif;
-  font-weight: 400;
-  color: white;
 }
 
 .logo2{

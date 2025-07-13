@@ -104,6 +104,15 @@ ul{
   margin-top: 50px;
   border: 5px solid #ffffff;
 }
+/* Outside image */
+.photo-outside1 {
+  width: 250px;
+  height: 360px;
+  margin-top: 50px;
+  border: 5px solid #ffffff;
+}
+
+
 .photo-outside2 {
   width: 250px;
   height: 380px;
