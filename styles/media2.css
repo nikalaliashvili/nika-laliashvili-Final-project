@@ -25,7 +25,6 @@
   .photo-outside1{
     display: none ;
   }
-  /* Content Cards */
   .content-wrapper,
   .content-wrapper.reverse {
     flex-direction: column !important;

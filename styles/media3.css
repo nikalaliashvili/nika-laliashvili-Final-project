@@ -74,7 +74,7 @@
   body {
     overflow-x: hidden;
   }
-}
+
 .bottom {
   height: 250px;
   width: 100%;
@@ -167,4 +167,5 @@ width: 110px;
   font-family: "ALK Tall Mtavruli", sans-serif;
   font-weight: 700;
   color: #ffffff;
+}
 }

@@ -92,19 +92,17 @@ ul{
   gap: 20px;
 }
 
-/* Flip card layout (photo right, card left) */
 .content-wrapper.reverse {
   flex-direction: row-reverse;
 }
 
-/* Outside image */
 .photo-outside {
   width: 250px;
   height: 360px;
   margin-top: 50px;
   border: 5px solid #ffffff;
 }
-/* Outside image */
+
 .photo-outside1 {
   width: 250px;
   height: 360px;
@@ -120,7 +118,6 @@ ul{
   border: 5px solid #ffffff;
 }
 
-/* Gray card */
 .gray {
   background-color: #c8c8c8;
   width: 790px;
@@ -154,9 +151,6 @@ ul{
   z-index: 0;
     font-family: "ALK Tall Mtavruli", sans-serif;
 }
-
-/* Inside layout */
-
 .card-inside-img {
   width: 780px;
   height: 300px;

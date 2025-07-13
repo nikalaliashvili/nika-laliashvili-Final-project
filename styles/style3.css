@@ -160,8 +160,8 @@ ul{
 
 .image-row {
   display: flex;
-  gap: 20px; /* space between images */
-  justify-content: center; /* or flex-start / space-between */
+  gap: 20px;
+  justify-content: center;
   align-items: center;
 }
 
