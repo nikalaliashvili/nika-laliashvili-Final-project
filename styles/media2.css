@@ -1,23 +1,25 @@
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 426px) {
   body {
-    padding-top: 152px;
+    padding-top: 100px !important;
   }
   header{
     padding-bottom: 0px !important;
   }
+  /* HEADER */
   .headerwords, .active {
     font-size: 20px;
   }
   .logo1 {
-    width: 50px;
-    height: 50px;
-    margin-left: 125px;
+    width: 45px !important;
+    height: 45px !important;
+    margin-left: 10px !important;
+    margin-top: -10px;
   }
 
   nav ul {
     flex-direction:row;
-    margin-left: -30px;
-    margin-top: 15px;
+    margin-left: -10px !important;
+    margin-top: 5px;
   }
   nav li{
     margin-right: 10px;
@@ -101,3 +103,111 @@
     display: none;
   }
 }
+ @media screen and (max-width: 770px) {
+  body {
+    padding-top: 100px;
+  }
+  header{
+    padding-bottom: 0px !important;
+  }
+  /* HEADER */
+  .headerwords, .active {
+    font-size: 20px;
+  }
+  .logo1 {
+    width: 45px !important;
+    height: 45px !important;
+    margin-left: 10px !important;
+  }
+
+  nav ul {
+    flex-direction:row;
+    margin-left: -10px !important;
+    margin-top: 15px;
+  }
+  nav li{
+    margin-right: 10px;
+  }
+  .photo-outside1{
+    display: none ;
+  }
+  .content-wrapper,
+  .content-wrapper.reverse {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .gray,
+  .gray2 {
+    width: 90%;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .photo-outside,
+  .photo-outside2 {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border: none;
+  }
+
+  .card-inside-img,
+  .card-inside-img2 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .card-title,
+  .toptxt {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .txt {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  /* FOOTER */
+  .bottom {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .card-img{
+    display: none;
+  }
+
+  .line1,
+  .line2,
+  .liltxt,
+  .logo2 {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .line1-p,
+  .line1-p-2,
+  .line2-p,
+  .line2-p-2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .logo-tbc,
+  .logo-geolab {
+    height: 30px;
+    width: auto;
+    margin: 5px;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
